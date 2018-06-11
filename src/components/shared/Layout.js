@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Layout from './navMenu';
+// import NavMenu from './navMenu';
 
 export default class Layout extends Component {
     render() {
@@ -8,7 +8,7 @@ export default class Layout extends Component {
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-sm-3'>
-                        <NavMenu />
+                        {/* <NavMenu /> */} TEst
                     </div>
                     <div className='col-sm-9'>
                         {/* {this.props.children} */}Test
