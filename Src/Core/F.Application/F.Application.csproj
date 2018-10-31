@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\F.Persistence\F.Persistence.csproj" />
+    <ProjectReference Include="..\F.Domain\F.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
